@@ -1,0 +1,36 @@
+# Large raw log dataset (exceeds GitHub 100 MB limit; download from LogHub benchmark if needed)
+HDFS.log
+
+# Raw uncompressed trace CSV (compressed version Event_traces.csv.zip is included)
+preprocessed/Event_traces.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Node / Dependencies
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
